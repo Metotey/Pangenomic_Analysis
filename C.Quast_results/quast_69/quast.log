@@ -1,0 +1,66 @@
+/root/miniconda3/lib/python3.12/site-packages/quast-5.2.0-py3.12.egg/EGG-INFO/scripts/quast.py contigs69.fasta -o quast_69
+
+Version: 5.2.0, 2723558f
+
+System information:
+  OS: Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.12.2
+  CPUs number: 8
+
+Started: 2024-08-03 16:58:36
+
+Logging to /home/diawara/spades/quast/quast_69/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /home/diawara/spades/quast
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  contigs69.fasta ==> contigs69
+
+2024-08-03 16:58:37
+Running Basic statistics processor...
+  Contig files: 
+    contigs69
+  Calculating N50 and L50...
+    contigs69, N50 = 59075, L50 = 9, auN = 105084.4, Total length = 2042985, GC % = 39.65, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/diawara/spades/quast/quast_69/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/diawara/spades/quast/quast_69/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/diawara/spades/quast/quast_69/basic_stats/GC_content_plot.pdf
+  Drawing contigs69 GC content plot...
+    saved to /home/diawara/spades/quast/quast_69/basic_stats/contigs69_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 4x)...
+    saved to /home/diawara/spades/quast/quast_69/basic_stats/coverage_histogram.pdf
+  Drawing contigs69 coverage histogram (bin size: 4x)...
+    saved to /home/diawara/spades/quast/quast_69/basic_stats/contigs69_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-08-03 16:58:39
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-08-03 16:58:40
+RESULTS:
+  Text versions of total report are saved to /home/diawara/spades/quast/quast_69/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/diawara/spades/quast/quast_69/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/diawara/spades/quast/quast_69/report.html
+  PDF version (tables and plots) is saved to /home/diawara/spades/quast/quast_69/report.pdf
+  Icarus (contig browser) is saved to /home/diawara/spades/quast/quast_69/icarus.html
+  Log is saved to /home/diawara/spades/quast/quast_69/quast.log
+
+Finished: 2024-08-03 16:58:40
+Elapsed time: 0:00:03.435604
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
