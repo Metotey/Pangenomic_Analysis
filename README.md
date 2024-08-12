@@ -1,6 +1,6 @@
 Tous les résultats de l'analyse relatifs à chaque étape sont présents dans ce dépôt.
 
-Les lignes de commande utilisées dans le présent travail peuvent être consultées à partir du fichier Command_lines.png.
+Les lignes de commandes utilisées dans le présent travail peuvent être consultées à partir du fichier Command_lines.png.
 
 En ce qui concerne les résultats de Roary, j'ai utilisé le paramètre -r afin d'obtenir, via le langage R, les graphiques relatifs aux résultats du programme (voir E.Roary_results/Rplots.pdf). J'ai, également, exécuté un script Python (H.Analysis_results/roary_plots.py) pour visualiser les résultats de l'analyse, en utilisant les résultats de Roary et de FastTree (voir H.Analysis_results_plots) .
 
