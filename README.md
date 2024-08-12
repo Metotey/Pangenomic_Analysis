@@ -1,3 +1,5 @@
+Travail realisé par H.MEZGOURIA.
+
 Tous les résultats de l'analyse relatifs à chaque étape sont présents dans ce dépôt.
 
 Les lignes de commandes utilisées dans le présent travail peuvent être consultées à partir du fichier Command_lines.png.
